@@ -151,7 +151,7 @@ volumes:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-repo/your-project.git
+   git clone https://github.com/Abdulatifhaehsh/LaravelDailyRecords.git
    cd your-project
    ```
 
@@ -162,10 +162,7 @@ volumes:
 
 3. **Run initial setup commands:**
    ```sh
-   docker-compose exec app php artisan migrate
-   docker-compose exec app php artisan db:seed
-   docker-compose exec app php artisan config:cache
-   docker-compose exec app php artisan route:cache
+   docker-compose exec app php artisan key:generate
    ```
 
 ## Running the Application
@@ -307,3 +304,6 @@ class Kernel extends ConsoleKernel
 }
 ```
 
+## Stay in touch
+- Author - [Abdulatif Hashash](https://www.linkedin.com/in/abdulatif-hashash-8aa594202/)
+- Portfolio - [website](https://abdulatifhashash.site/)
