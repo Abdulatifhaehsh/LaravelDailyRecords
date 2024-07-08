@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav-link-active {
+    font-weight: bold;
+    color: #1a202c;
+    /* Tailwind's gray-900 */
+}
